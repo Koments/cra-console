@@ -34,6 +34,7 @@ function App() {
 
     return (
         <>
+            <div>Dev</div>
             <p>Lorem
             </p>
             <NewComponent currentMoney={currentMoney} onClickFilterHandler={(name) => onClickFilterHandler(name)}/>
@@ -42,8 +43,6 @@ function App() {
 }
 
 export default App;
-
-
 
 
 // function App() {
