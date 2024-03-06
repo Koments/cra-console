@@ -6,7 +6,7 @@ type FilterType = string
 
 function App() {
     const [money, setMoney] = useState([
-        { banknote: 'dollar', nominal: 100, number: ' a1234567890' },
+        { banknote: 'uan', nominal: 100, number: ' a1234567890' },
         { banknote: 'dollar', nominal: 50, number: ' z1234567890' },
         { banknote: 'ruble', nominal: 100, number: ' w1234567890' },
         { banknote: 'dollar', nominal: 100, number: ' e1234567890' },
@@ -38,11 +38,7 @@ function App() {
         </>
     );
 }
-
 export default App;
-
-
-
 
 // function App() {
 // const Button1Foo = (subscriber: string, age: number) => {
