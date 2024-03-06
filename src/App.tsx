@@ -5,7 +5,7 @@ import { NewComponent } from './NewComponent';
 type FilterType = string
 
 function App() {
-    const [money, setMoney] = useState([
+    const [money] = useState([
         { banknote: 'dollar', nominal: 100, number: ' a1234567890' },
         { banknote: 'dollar', nominal: 50, number: ' z1234567890' },
         { banknote: 'ruble', nominal: 100, number: ' w1234567890' },
@@ -34,6 +34,8 @@ function App() {
 
     return (
         <>
+            <p>Lorem
+            </p>
             <NewComponent currentMoney={currentMoney} onClickFilterHandler={(name) => onClickFilterHandler(name)}/>
         </>
     );
