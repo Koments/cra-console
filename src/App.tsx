@@ -35,7 +35,6 @@ function App() {
     return (
         <>
             <NewComponent currentMoney={currentMoney} onClickFilterHandler={(name) => onClickFilterHandler(name)}/>
-           
         </>
     );
 }
