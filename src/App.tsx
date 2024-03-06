@@ -36,6 +36,9 @@ function App() {
         <>
             <div>Dev</div>
             <p>Lorem
+            <p>Lorem
+            </p>
+
             </p>
             <NewComponent currentMoney={currentMoney} onClickFilterHandler={(name) => onClickFilterHandler(name)}/>
         </>
