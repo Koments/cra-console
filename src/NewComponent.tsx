@@ -10,7 +10,6 @@ type MoneyType = {
     nominal: number,
     number: string
 }
-
 export const NewComponent = (props: PropsType) => {
     function getName(name: string) {
         props.onClickFilterHandler(name)

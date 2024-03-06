@@ -4,7 +4,7 @@ export function Test() {
 
     return (
         <>
-            <h2>Test</h2>
+            <h2>Test </h2>
         </>
     );
 }
