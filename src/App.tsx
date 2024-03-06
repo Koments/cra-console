@@ -43,7 +43,6 @@ export default App;
 
 
 
-
 // function App() {
 // const Button1Foo = (subscriber: string, age: number) => {
 //   console.log(subscriber, age)
